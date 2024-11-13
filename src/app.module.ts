@@ -13,7 +13,7 @@ import { CommonModule } from './common/common.module';
       rootPath: join(__dirname,'..','public'), 
     }),
 
-    MongooseModule.forRoot('mongodb://localhost:27017/nest-pokemon'),
+    MongooseModule.forRoot('mongodb://192.168.1.99:27017/nest-pokemon'),
 
     PokemonModule,
 
